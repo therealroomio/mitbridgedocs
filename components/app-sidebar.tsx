@@ -40,8 +40,8 @@ export function AppSidebar() {
                   <GalleryVerticalEnd className="size-4" />
                 </div>
                 <div className="flex flex-col gap-0.5 leading-none">
-                  <span className="font-semibold">Docs</span>
-                  <span className="">v1.0.0</span>
+                  <span className="font-semibold">MitBridge Docs</span>
+                  <span className="">hello@oomikh.com</span>
                 </div>
               </Link>
             </SidebarMenuButton>
