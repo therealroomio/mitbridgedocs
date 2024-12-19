@@ -16,14 +16,14 @@ import {
   SidebarHeader,
   SidebarMenu,
   SidebarMenuItem,
-  SidebarMenuButton,
+  SidebarMenuButton
 } from '@/components/ui/sidebar'
 
 const navItems = [
   { title: 'Introduction', url: '/' },
-  { title: 'Getting Started', url: '/getting-started' },
-  { title: 'Components', url: '/components' },
-  { title: 'API Reference', url: '/api-reference' },
+  { title: 'MitBridge Admin', url: '/mitbridge-admin' },
+  { title: 'Divi Builder', url: '/divi-builder' },
+  { title: 'WooCommerce', url: '/woocommerce' }
 ]
 
 export function AppSidebar() {
@@ -82,4 +82,3 @@ export function AppSidebar() {
     </Sidebar>
   )
 }
-

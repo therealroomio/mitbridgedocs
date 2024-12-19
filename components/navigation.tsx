@@ -7,9 +7,9 @@ import { ScrollArea } from '@/components/ui/scroll-area'
 
 const navItems = [
   { name: 'Introduction', href: '/' },
-  { name: 'Getting Started', href: '/getting-started' },
-  { name: 'Components', href: '/components' },
-  { name: 'API Reference', href: '/api-reference' },
+  { name: 'MitBridge Admin', href: '/mitbridge-admin' },
+  { name: 'Divi Builder', href: '/divi-builder' },
+  { name: 'WooCommerce', href: '/woocommerce' }
 ]
 
 export default function Navigation() {
@@ -39,4 +39,3 @@ export default function Navigation() {
     </div>
   )
 }
-
